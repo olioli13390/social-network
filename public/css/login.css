@@ -1,0 +1,100 @@
+/* Réglage de base */
+
+body {
+    background-color: white;
+    color: #83BCFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 auto;
+    text-shadow: 0px 0px 3px 1px #ABABAB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+        padding: 10px;
+        margin: 20px;
+        max-width: 200px;
+        background-color: #E1EFF6;
+        border-radius: 5px;
+        border-style: none;
+        transition: 0.3s ease-in-out;
+
+
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: #97D2FB;
+        transition: 0.3s ease-in-out;
+        color: white;
+    }
+
+    input {
+        margin: 20px;
+        padding: 15px;
+        border-style: none;
+        border-radius: 5px;
+        transition: 0.2s ease-in-out;
+        border: #80FFE8;
+    }
+
+    input:focus {
+        transition: 0.2s ease-in-out;
+        outline: 3px solid #80FFE8;
+        border: #80FFE8;
+    }
+}
+/* header */
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+        font-size: 4em;
+    }
+}
+
+/* main */
+main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+    .login {
+        border-radius: 5px;
+        background-color: #83BCFF;
+        color: white;
+        width: 350px;
+        box-shadow: 0px 0px 3px 1px #ABABAB;
+
+        .form-container {
+            form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            button {
+                margin-bottom: 30px;
+            }
+
+        }
+
+    }
+
+    .sign-in {
+        button {
+            margin-top: 0;
+        }
+    }
+
+}
